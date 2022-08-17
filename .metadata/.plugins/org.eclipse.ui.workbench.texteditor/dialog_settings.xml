@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<item key="selection" value="&#x0D;&#x0A;public class Schedule {&#x0D;&#x0A;&#x09;&#x0D;&#x0A;&#x09;public class Schedule {&#x0D;&#x0A;&#x09;&#x09;static Date now = new Date();&#x0D;&#x0A;&#x09;&#x09;static Date tomorrow;&#x0D;&#x0A;&#x09;&#x09;static Date yesterday;&#x0D;&#x0A;&#x09;&#x09;static {//static initializer&#x0D;&#x0A;&#x09;&#x09;tomorrow = new Date(now.getTime() + (24 * 60 * 60 * 1000));&#x0D;&#x0A;&#x09;&#x09;yesterday = new Date(now.getTime() - (24 * 60 * 60 * 1000));&#x0D;&#x0A;&#x09;&#x09;}&#x0D;&#x0A;&#x09;&#x09;}&#x0D;&#x0A;    &#x0D;&#x0A;    &#x0D;&#x0A;&#x09;public static void main(String[] args) {&#x0D;&#x0A;&#x09;&#x09;&#x0D;&#x0A;&#x09;&#x09;&#x0D;&#x0A;&#x0D;&#x0A;&#x09;}&#x0D;&#x0A;&#x0D;&#x0A;}&#x0D;&#x0A;"/>
+		<list key="findhistory">
+			<item value="import java.util.Scanner;"/>
+			<item value="&#x0D;&#x0A;public class Schedule {&#x0D;&#x0A;&#x09;&#x0D;&#x0A;&#x09;public class Schedule {&#x0D;&#x0A;&#x09;&#x09;static Date now = new Date();&#x0D;&#x0A;&#x09;&#x09;static Date tomorrow;&#x0D;&#x0A;&#x09;&#x09;static Date yesterday;&#x0D;&#x0A;&#x09;&#x09;static {//static initializer&#x0D;&#x0A;&#x09;&#x09;tomorrow = new Date(now.getTime() + (24 * 60 * 60 * 1000));&#x0D;&#x0A;&#x09;&#x09;yesterday = new Date(now.getTime() - (24 * 60 * 60 * 1000));&#x0D;&#x0A;&#x09;&#x09;}&#x0D;&#x0A;&#x09;&#x09;}&#x0D;&#x0A;    &#x0D;&#x0A;    &#x0D;&#x0A;&#x09;public static void main(String[] args) {&#x0D;&#x0A;&#x09;&#x09;&#x0D;&#x0A;&#x09;&#x09;&#x0D;&#x0A;&#x0D;&#x0A;&#x09;}&#x0D;&#x0A;&#x0D;&#x0A;}&#x0D;&#x0A;"/>
+			<item value="&#x09;public class Schedule {"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="801"/>
+		<item key="DIALOG_Y_ORIGIN" value="247"/>
+		<item key="DIALOG_WIDTH" value="336"/>
+		<item key="DIALOG_HEIGHT" value="454"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="137"/>
+		<item key="DIALOG_Y_ORIGIN" value="379"/>
+	</section>
+</section>
